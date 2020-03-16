@@ -1,0 +1,8 @@
+mkdir exercise22
+echo "exercise 22" >> test.txt
+git init
+git add test.txt
+git commit -m "first commit"
+git remote add origin git@github.com:s270231/project.git
+git remote -v
+git push -u origin master
